@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@popperjs/core@^2.6.0":
+  version "2.9.2"
+  resolved "https://registry.npm.taobao.org/@popperjs/core/download/@popperjs/core-2.9.2.tgz?cache=0&sync_timestamp=1617290098226&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40popperjs%2Fcore%2Fdownload%2F%40popperjs%2Fcore-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
+  integrity sha1-rep7aVPLs0ZRdmsFSEaOdDxqI1M=
+
 "@rollup/pluginutils@^4.1.0":
   version "4.1.0"
   resolved "https://registry.npm.taobao.org/@rollup/pluginutils/download/@rollup/pluginutils-4.1.0.tgz?cache=0&sync_timestamp=1603767889260&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40rollup%2Fpluginutils%2Fdownload%2F%40rollup%2Fpluginutils-4.1.0.tgz#0dcc61c780e39257554feb7f77207dceca13c838"
@@ -187,6 +192,13 @@ svelte@^3.37.0:
   version "3.38.2"
   resolved "https://registry.nlark.com/svelte/download/svelte-3.38.2.tgz#55e5c681f793ae349b5cc2fe58e5782af4275ef5"
   integrity sha1-VeXGgfeTrjSbXML+WOV4KvQnXvU=
+
+sveltestrap@^5.0.6:
+  version "5.0.6"
+  resolved "https://registry.nlark.com/sveltestrap/download/sveltestrap-5.0.6.tgz#f76ac4f3a9b231ced722f7422721457eef787420"
+  integrity sha1-92rE86myMc7XIvdCJyFFfu94dCA=
+  dependencies:
+    "@popperjs/core" "^2.6.0"
 
 vite@^2.3.4:
   version "2.3.4"
